@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-color:powderblue;
+    padding: 0.5rem;
+}
+body{
+    background-color:aliceblue;
+}
+section {
+    width: 70%;
+    height: 838px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.card{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    padding: 1rem;
+    border: 0.5px red solid;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-around;
+    border-radius: 1rem;
+    background-color:ghostwhite;
+}
+img{
+    width: 250px;
+    height: 250px; 
+    border-radius: 50%;
+}
+.card-content{
+    margin: 1rem;
+    width: 50%;
+    position: relative;
+    /* border: solid 2px black ; */
+    flex-direction: row;
+}
+p{
+    font-style: italic;
+}
+footer{
+    background-color: darkslateblue;
+    color: aliceblue;
+    padding: 0.3rem;
+    text-align: center;
+}

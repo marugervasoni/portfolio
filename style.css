@@ -40,7 +40,7 @@ main {
     /* max-width: 800px; */
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
-img{
+.foto{
     border-radius: 50%;
     margin-bottom: 10px;
     height: 200px;
@@ -61,7 +61,7 @@ img{
 }
 .uno article, .dos article{
     margin: 20px;
-    padding: 20px;
+    padding: 20px 40px;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
     border-radius: 7px;
     text-align: center;
@@ -73,10 +73,12 @@ img{
     background-color:#bb99b7;
     color: var(--rosa);
 }
-
-
-
-
+img {
+    width: 70px;
+    height: 70px;
+    width: auto;
+    padding: 0.5rem;
+}
 
 footer{
     background-color:var(--verde);

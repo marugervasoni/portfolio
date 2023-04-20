@@ -20,21 +20,14 @@ body{
     background-color:var(--crema);
 }
 main {
-    /* display: flex; */
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 .card{
-    /* margin: 1rem; */
     display: flex;
     align-items: center;
     align-self: center;
-    /* width: 1300px; */
-    height: 330px;
-    padding: 2rem 20rem;
-    /* border-radius: 7px; */
+    padding: 2rem 3rem;
     background-color:var(--rosa);
 
     /* max-width: 800px; */
@@ -43,8 +36,8 @@ main {
 .foto{
     border-radius: 50%;
     margin-bottom: 10px;
-    height: 200px;
-    width: 200px;
+    height: 12rem;
+    width: 12rem;
 }
 .card-content{
     padding: 1.5rem;
@@ -87,3 +80,18 @@ footer{
     padding: 0.3rem;
     text-align: center;
 }
+
+@media (min-width:460px) {
+ 
+    .card {
+    padding: 2rem 4rem;
+ }   
+
+}
+/* @media (max-width:768px) {
+ 
+    .card {
+    padding: 2rem 15rem;
+ }
+
+} */

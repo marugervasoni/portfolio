@@ -83,8 +83,8 @@ footer{
 
 @media (min-width:460px) {
  
-    .card {
-    padding: 2rem 4rem;
+    main {
+    flex-direction: column;
  }   
 
 }

@@ -64,6 +64,12 @@ main {
 .uno h2 {
     color: var(--naranja);
 }
+
+.uno p {
+    text-align: justify;
+    margin: 0.5rem;
+}
+
 .dos article {
     background-color:#bb99b7;
     color: var(--rosa);

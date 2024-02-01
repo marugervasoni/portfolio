@@ -70,6 +70,10 @@ main {
     margin: 0.5rem;
 }
 
+.estudios p {
+    text-align: center;
+}
+
 .dos article {
     background-color:#bb99b7;
     color: var(--rosa);
